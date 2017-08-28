@@ -4,8 +4,8 @@ use Illuminate\Http\Request;
 class StaticPagesController extends Controller
 {
     public function home(){
-        return '主页';
-        // return view('static_pages/home');
+        // return '主页';
+        return view('static_pages/home');
     }
 
     public function help(){
@@ -15,6 +15,6 @@ class StaticPagesController extends Controller
 
     public function about(){
         // return '关于页'
-        return view('static_pages/adout');
+        return view('static_pages/about');
     }
 }
