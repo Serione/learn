@@ -5,7 +5,7 @@
       <nav>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="{{ route('help') }}">帮~</a>
+            <a href="{{ route('help') }}">帮123</a>
           </li>
           <li>
             <a href="#">登录</a>
